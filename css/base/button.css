@@ -1,0 +1,13 @@
+.button {
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: linear-gradient(270deg, #d8f3dcff, #b7e4c7ff, #95d5b2ff, #74c69dff, #52b788ff, #40916cff, #2d6a4fff, #1b4332ff, #081c15ff);
+    color: var(--turquoise-green);
+}

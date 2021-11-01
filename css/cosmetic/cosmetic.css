@@ -1,0 +1,55 @@
+/*Властивості описані детально*/
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 90deg;
+    inherits: true;
+}
+
+@property --gradX {
+    syntax: '<percentage>';
+    initial-value: 50%;
+    inherits: true;
+}
+
+@property --gradY {
+    syntax: '<percentage>';
+    initial-value: 0%;
+    inherits: true;
+}
+
+:root {
+    --nyanza: #d8f3dcff;
+    --turquoise-green: #b7e4c7ff;
+    --turquoise-green-2: #95d5b2ff;
+    --ocean-green: #74c69dff;
+    --ocean-green-2: #52b788ff;
+    --illuminating-emerald: #40916cff;
+    --bottle-green: #2d6a4fff;
+    --brunswick-green: #1b4332ff;
+    --dark-jungle-green: #081c15ff;
+    --primary: #2c2c2c;
+    --blue: #14b0ee;
+    --d: 2500ms;
+    --angle: 90deg;
+    --gradX: 100%;
+    --gradY: 50%;
+    --c1: #d8f3dcff;
+    --c2: rgba(168, 239, 255, 0.1);
+}
+
+.c-djg {
+    color: var(--dark-jungle-green);
+}
+
+.fs-1_8 {
+    font-size: 1.8vmax;
+}
+
+.fs-1_6 {
+    font-size: 1.6vmax;
+}
+
+.fs-1_3 {
+    font-size: 1.3vmax;
+}

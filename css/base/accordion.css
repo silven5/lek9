@@ -1,0 +1,17 @@
+.accordion {
+    width: 100%;
+}
+
+.accordion:after {
+    /*Символ +*/
+    content: '\002B';
+    color: var(--primary);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    /*Символ -*/
+    content: "\2212";
+}

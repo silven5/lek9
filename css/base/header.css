@@ -1,0 +1,17 @@
+.header {
+    font-family: 'Clicker Script', cursive;
+    font-weight: normal;
+    font-size: 1.8vmax;
+    padding-left: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    color: var(--brunswick-green);
+    top: 0;
+}
+
+.header:hover {
+    color: var(--bottle-green);
+}

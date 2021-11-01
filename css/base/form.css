@@ -1,0 +1,8 @@
+.form {
+    background-color: rgba(27, 67, 50, 0.5);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 75%;
+    margin-right: 5%;
+}

@@ -1,0 +1,5 @@
+.section_box__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

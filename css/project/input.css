@@ -1,0 +1,32 @@
+.input {
+    border: none;
+    background: transparent;
+    width: 50%;
+    height: 45px;
+    font-size: 1.5vmax;
+    font-family: 'Clicker Script', cursive;
+    font-weight: bolder;
+    outline: none;
+    border-bottom: 1px solid var(--turquoise-green);
+    color: var(--turquoise-green-2);
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-input-placeholder {
+    color: var(--turquoise-green);
+}

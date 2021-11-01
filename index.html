@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Javascript Example</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/foundation.css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:200,400,800|Clicker+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css">
+    <link rel="icon" href="img/favicon .ico">
+
+</head>
+
+<body>
+    <video id="videoBkg" preload autoplay muted loop>
+        <source src="video/background1.mp4" type="video/mp4">
+      </video>
+    <header class="header" onclick="location.reload()">
+        <h1>ПРИКЛАДИ</h1>
+    </header>
+    <article class=" article ">
+        <section class="section ">
+            <h2 class="c-djg fs-1_8">Приклад меню аккардіон</h2>
+
+            <button class="accordion button section_button fs-1_3">Section 1</button>
+            <div class="panel fs-1_3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion button section_button fs-1_3">Section 2</button>
+            <div class="panel fs-1_3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion button section_button fs-1_3">Section 3</button>
+            <div class="panel fs-1_3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </section>
+        <section class="section ">
+            <h2 class="c-djg fs-1_8">А тут ще трохи замикання</h2>
+            <div class="section_box">
+                <p id="help1"></p>
+                <div class="form" id="form1">
+
+                    <input class="input" type="text" placeholder="Name" id="name1">
+                    <input class="input" type="email" placeholder="email" id="email1">
+                    <input class="input" type="number" placeholder="Age" id="age1">
+                </div>
+                <p id="help2"></p>
+                <div class="form" id="form2">
+
+                    <input class="input" type="text" placeholder="Name" id="name2">
+                    <input class="input" type="email" placeholder="Email" id="email2">
+                    <input class="input" type="number" placeholder="Age" id="age2">
+                </div>
+
+            </div>
+
+        </section>
+        <section class="section ">
+            <h2 class="c-djg fs-1_8">Приклад з класом</h2>
+
+
+            <input class="input" type="text" placeholder="Введіть вираз" id="calc">
+            <button class="button section_button fs-1_3" onclick="onClick()">=</button>
+
+
+
+
+
+        </section>
+        <section class="section ">
+            <h2 class="c-djg fs-1_8">Спадкування</h2>
+
+            <button class="button section_button fs-1_3" onclick="onClick1()">Перевірка</button>
+            <div class=" section_box__flex">
+                <p id="rezult1"></p>
+                <p id="rezult2"></p>
+            </div>
+
+
+        </section>
+    </article>
+    <script src="js/script1.js "></script>
+    <script src="js/script2.js "></script>
+    <script src="js/script3.js "></script>
+    <script src="js/script4.js "></script>
+</body>
+
+</html>
